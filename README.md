@@ -75,6 +75,13 @@ The below is an outline of the exposition and the .Rmd code that generated the a
 	- Top 500 differentially expressed genes
 5. Top 25 differentially expressed genes, boxplot
 
-#### Webgestalt data preparation
+#### [Webgestalt](http://www.webgestalt.org/) data preparation
+WebGestalt (WEB-based Gene SeT AnaLysis Toolkit) is a functional enrichment analysis web tool that was used to obtain the pathways that were differential expressed between the analyzed groups. The data was prepared for use with the web tool using R and then the analyses were performed using WebGestalt. WebGestalt was set to:  
+- Organism of interest: Homo sapiens  
+- Method of interest: Gene set enrichment analysis (GSEA)
+- Functional database: pathway  
+
+with advanced parameters set as default.
+
 #### Table 1 code
 Table 1 is used in all scientific literature to showcase the proportion of baseline characteristics (e.g., age, sex, etc.) between comparator groups. This helps assess the uniformity of each comparator group&mdash;a crude method for identifying possible confounders.
