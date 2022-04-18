@@ -3,10 +3,12 @@
 
 This was an initial differential gene expression analysis that was performed as a proof-of-concept classifier for patients with and without sepsis&mdash;a life-threatening infection typically requiring admission to the intensive care unit (ICU). The gene expression data is not included in this repo as the data and a final analysis using bagged support support vector machines is currently under review for publication.
 
-The following is an .Rmd file that contains a short exposition that reviews the rationale for the project, the methods used, the results obtained, and a brief discussion of these results. The code to reproduce these analyses is detailed thereafter. All required packages are listed in the `{r setup}`. The file cannot knit without the missing data. Therefore, an .html file is also included in the repo with the output of the code blocks for reference and review of the output.
+The following is an `.Rmd` file that contains a short exposition that reviews the rationale for the project, the methods used, the results obtained, and a brief discussion of these results. The code to reproduce these analyses is detailed thereafter. All required packages are listed in the `{r setup}`.  
+
+The file cannot knit without the missing data. Therefore, an `.html` file is also included in the repo with the output of the code blocks for reference and review of the output. NB: The `.html` file cannot be rendered in GitHub because of its size, so must be downloaded to open.
 
 ## An outline of the included exposition and code:  
-The below is an outline of the exposition and the .Rmd code that generated the analysis. The table of contents corresponds to the sections in the .Rmd file and the accompanying knit .html file. To jump to a section in the .Rmd or .html file, use `Ctrl-F` or `Cmd-F` and search for the titles listed below.
+The below is an outline of the exposition and the `.Rmd` code that generated the analysis. The table of contents corresponds to the sections in the .Rmd file and the accompanying knit `.html` file. To jump to a section in the `.Rmd` or `.html` file, use `Ctrl-F` or `Cmd-F` and search for the titles listed below.
 
 ### Table of contents:
 [Exposition outline](#integrating-host-response-and-unbiased-microbe-detection-for-precision-sepsis-diagnosis-in-critically-ill-adults)  
