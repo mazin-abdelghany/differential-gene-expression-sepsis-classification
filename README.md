@@ -5,7 +5,7 @@ This was an initial differential gene expression analysis that was performed as 
 
 The following is an `.Rmd` file that contains a short exposition that reviews the rationale for the project, the methods used, the results obtained, and a brief discussion of these results. The code to reproduce these analyses is detailed thereafter. All required packages are listed in the `{r setup}`.  
 
-The `.Rmd` file cannot knit without the missing data. Therefore, two `.html` files are also included in the repo with the output of the code blocks for reference and review of the output. The larger `.html` file with both the exposition and the complete project code cannot be rendered in GitHub because of its size, so must be downloaded to open. Therefore, the `Abdelghany_ML_project_write-up.html` file is included with the project write-up only for convenience, which can be opened and viewed.
+The `.Rmd` file cannot knit without the missing data. Therefore, two `.html` files are also included in the repo with the output of the code blocks for reference and review of the output. The larger `.html` file with both the exposition and the complete project code and the smaller has only the project write-up. Neither can be opened natively on GitHub.
 
 ## An outline of the included exposition and code:  
 The below is an outline of the exposition and the `.Rmd` code that generated the analysis. The table of contents corresponds to the sections in the .Rmd file and the accompanying knit `.html` file. To jump to a section in the `.Rmd` or `.html` file, use `Ctrl-F` or `Cmd-F` and search for the titles listed below.
