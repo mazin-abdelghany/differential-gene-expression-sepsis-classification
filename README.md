@@ -3,11 +3,12 @@
 
 This was an initial differential gene expression analysis that was performed as a proof-of-concept classifier for patients with and without sepsis&mdash;a life-threatening infection typically requiring admission to the intensive care unit (ICU). The gene expression data is not included in this repo as the data and a final analysis using bagged support support vector machines is currently under review for publication.
 
-The repo contains an `.Rmd` file with a short exposition that reviews the rationale for the project, the methods used, the results obtained, and a brief discussion of these results. The code to reproduce these analyses is detailed thereafter within the same `.Rmd` file. All required packages are listed in the `{r setup}` code block.  
+## Repo files and folder description
+The repo contains an `.Rmd` file with an exposition that reviews the rationale for the project, the methods used, the results obtained, and a brief discussion of these results. The code to reproduce the analyses is then detailed thereafter within the same `.Rmd` file. All required packages are listed in the `{r setup}` code block.  
 
-The `.Rmd` file cannot knit without the missing data. Therefore, two `.html` files are also included in the repo with the output of the code blocks for reference and review of the output. The larger `.html` file with both the exposition and the complete project code and the smaller with only the project write-up.  
+The `.Rmd` file cannot knit without the missing data. Therefore, two `.pdf` files are included: (1) the project exposition alone (`...write-up.pdf`) and (2) the entire project write-up and code (`...projectCode.pdf`).
 
-Neither can be opened natively on GitHub, so two accompanying `.pdf` files are included for convenience.
+Two `.html` files are also included in the repo in a separate folder `html-format-files` with the output of the code blocks for reference and review, one of the write-up alone and one of the entire project&mdash;paralleling the `.pdf` files. The `.html` files are too large to be rendered in GitHub, so need to be downloaded to be viewed. 
 
 ## An outline of the included exposition and code:  
 The below is an outline of the exposition and the `.Rmd` code that generated the analysis. The table of contents corresponds to the sections in the .Rmd file and the accompanying knit `.html` file. To jump to a section in the `.Rmd` or `.html` file, use `Ctrl-F` or `Cmd-F` and search for the titles listed below.
